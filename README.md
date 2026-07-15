@@ -16,6 +16,7 @@
 | 6 | [06-Advanced-Concurrency-Topics.md](06-Advanced-Concurrency-Topics.md) | Concurrent Data Structures, Resource Pools, Distributed Concurrency, High-Throughput | Hard-Staff |
 | 7 | [07-SystemDesign-and-Debugging.md](07-SystemDesign-and-Debugging.md) | 12 System Design Problems, 9 Debugging Categories (Deadlocks, Races, Leaks, etc.) | Hard-Staff |
 | 8 | [08-Production-Scenarios-and-TopLists.md](08-Production-Scenarios-and-TopLists.md) | Production Code Skeletons, Top 100/50/25/20/10 Lists, Study Roadmap | All Levels |
+| **9** | **[09-Top50-Problems-With-Solutions.md](09-Top50-Problems-With-Solutions.md)** | **50 Complete Working Solutions — Every Concurrency Concept Covered** | **All Levels** |
 
 ---
 
@@ -25,6 +26,7 @@
 
 - **31 concurrency categories** covered exhaustively
 - **100+ interview questions** ranked by frequency
+- **50 complete working solutions** (Part 9) — every problem is a runnable `main.go`
 - **50+ coding problems** with solutions and variations
 - **25 design pattern problems** with production-grade code
 - **20 debugging scenarios** with root cause analysis
