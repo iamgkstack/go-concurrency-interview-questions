@@ -21,6 +21,7 @@
 12. [Concurrent File Processor](#12-concurrent-file-processor)
 
 **Part B: Debugging & Troubleshooting**
+
 13. [Deadlocks](#13-deadlocks)
 14. [Race Conditions](#14-race-conditions)
 15. [Goroutine Leaks](#15-goroutine-leaks)
