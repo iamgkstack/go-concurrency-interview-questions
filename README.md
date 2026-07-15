@@ -17,6 +17,7 @@
 | 7 | [07-SystemDesign-and-Debugging.md](07-SystemDesign-and-Debugging.md) | 12 System Design Problems, 9 Debugging Categories (Deadlocks, Races, Leaks, etc.) | Hard-Staff |
 | 8 | [08-Production-Scenarios-and-TopLists.md](08-Production-Scenarios-and-TopLists.md) | Production Code Skeletons, Top 100/50/25/20/10 Lists, Study Roadmap | All Levels |
 | **9** | **[09-Top50-Problems-With-Solutions.md](09-Top50-Problems-With-Solutions.md)** | **50 Complete Working Solutions — Every Concurrency Concept Covered** | **All Levels** |
+| **10** | **[10-Missing-Concepts-and-Advanced-Topics.md](10-Missing-Concepts-and-Advanced-Topics.md)** | **Testing, Benchmarking, Retry/Backoff, Chan vs Mutex, reflect.Select, HTTP Model, Tracing** | **All Levels** |
 
 ---
 
@@ -33,6 +34,7 @@
 - **10 Staff/Principal-level design questions** with evaluation criteria
 - **12 real-world system design problems** with architecture diagrams
 - **9 debugging categories** (deadlocks, races, leaks, starvation, livelocks, memory ordering, lock contention, channel misuse, context bugs)
+- **15 gap-filler topics** (Part 10) — testing, benchmarking, retry/backoff, decision frameworks, profiling, tracing
 
 ### Categories Covered
 
@@ -51,6 +53,10 @@
 **System Design:** Web Crawler, Task Queue, Chat Server, API Gateway, Log Aggregation, Cache, Stream Processing, Connection Pool, Job Scheduler, Metrics Collection, Message Broker, File Processor
 
 **Debugging:** Deadlocks, Race Conditions, Goroutine Leaks, Starvation, Livelocks, Memory Ordering, Lock Contention, Channel Misuse, Context Bugs
+
+**Testing & Profiling (Part 10):** Race Detector, t.Parallel, goleak, Stress Tests, b.RunParallel, Mutex/Block Profiling, runtime/trace, GODEBUG
+
+**Gap Fillers (Part 10):** Retry with Backoff + Jitter, Channel vs Mutex Decision Framework, reflect.Select, net/http Concurrency Model, Ticker Lifecycle, Barrier Synchronization, Immutable Data, Lock-Free Stack, singleflight Real Usage, errgroup Advanced, Distributed Tracing
 
 ---
 
